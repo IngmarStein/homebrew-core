@@ -6,7 +6,7 @@ class Libpixlet < Formula
   license "Apache-2.0"
 
   depends_on "go" => :build
-  depends_on "libwebm"
+  depends_on "webp"
 
   def install
     ldflags = %W[
